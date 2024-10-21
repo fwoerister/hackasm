@@ -12,9 +12,9 @@ function, making it an excellent learning tool.
 You can install `hackasm` by using the python package manager pip.
 
 ```shell
-python3 -m venv .venv
-. .venv/bin/activate
-pip install --editable .
+$ python3 -m venv .venv
+$ . .venv/bin/activate
+$ pip install --editable .
 ```
 
 ## Usage
