@@ -2,7 +2,10 @@
 
 ## Introduction
 
-`hackasm` is an assembler that translates HACK assembly source files into HACK machine language. The HACK architecture is a simplified computer model designed by Noam Nisan and Shimon Schocken, as described in their book _The Elements of Computing Systems_. This architecture is intended to provide a clear and concise understanding of how computers function, making it an excellent learning tool.
+`hackasm` is an assembler that translates HACK assembly source files into HACK machine language. The HACK architecture
+is a simplified computer model designed by Noam Nisan and Shimon Schocken, as described in their book _The Elements of
+Computing Systems_. This architecture is intended to provide a clear and concise understanding of how computers
+function, making it an excellent learning tool.
 
 ## Features
 
@@ -18,15 +21,17 @@
 
 You can install `hackasm` by using the python package manager pip.
 
-```
-pip install hackasm
+```shell
+python3 -m venv .venv
+. .venv/bin/activate
+pip install --editable .
 ```
 
 ## Usage
 
 To assemble a HACK assembly file into machine code, run the `hackasm` script with the `.asm` file as the argument:
 
-```
+```shell
 $ hackasm Add.asm
 ```
 
