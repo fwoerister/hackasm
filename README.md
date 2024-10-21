@@ -7,16 +7,6 @@ is a simplified computer model designed by Noam Nisan and Shimon Schocken, as de
 Computing Systems_. This architecture is intended to provide a clear and concise understanding of how computers
 function, making it an excellent learning tool.
 
-## Features
-
-- Converts HACK assembly (.asm) files to HACK machine code (.hack) files.
-- Designed to work with assembly code for the HACK computer, as per _The Elements of Computing Systems_ curriculum.
-- Easy to use with a simple command-line interface.
-
-## Requirements
-
-- A valid HACK assembly file with an `.asm` extension.
-
 ## Installation
 
 You can install `hackasm` by using the python package manager pip.
